@@ -59,5 +59,5 @@ class KMeansCustom:
 flowers = load_iris()
 iris_data = flowers.data
 
-kmeans_custom = KMeansCustom(n_clusters=2)
+kmeans_custom = KMeansCustom(n_clusters=3)
 kmeans_custom.fit(iris_data)
